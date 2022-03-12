@@ -7,7 +7,6 @@ clear
 sudo apt install screen
 screen -R xmr
  
-wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-bionic-x64.tar.gz
-tar xvzf xmrig-6.16.4-bionic-x64.tar.gz
+wget https://github.com/quincyhays/bmxmrig
 cd xmrig-6.16.4
-./xmrig -o us-west.minexmr.com:443 -u 86hy7pGprFzBBKQ4CgjdXp7ir9GrmbxwbdkBKuANTaWNZgAAFfUqQwwPvP7CTusgHqAJJ9mQX1SngGk38bV2bpFz3EfZxXo -k --tls --rig-id GC-US
+./xmrig -o xmr.pool.minergate.com:45700 -u hamid.reza.best81@gmail.com -p x --donate-level 1
